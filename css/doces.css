@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(254, 242, 183, 0.892);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.faixa {
+    background-color: blue;
+    width: 100%;
+    height: 15px;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.frase {
+    height: 400px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.recipe-card {
+    background-color: #fff;
+    width: 320px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+
+
+.recipe-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.recipe-description {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    padding: 0 20px;
+}
+
+.ingredients, .steps {
+    padding: 20px;
+}
+
+.ingredients h4, .steps h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}

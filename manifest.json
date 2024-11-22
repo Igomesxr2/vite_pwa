@@ -1,0 +1,21 @@
+{
+    "name": "Minha pwa de receitas duvidosas",
+    "short_name": "pwa-receitas",
+    "icons": [
+    {
+    "src": "images/logo3.png",
+    "sizes": "256x256",
+    "type": "image/png"
+    },
+    {
+    "src": "images/logo2.png",
+    "sizes": "512x512",
+    "type": "image/png"
+    }
+    ],
+    "lang": "pt-BR",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
+    }
